@@ -1,0 +1,150 @@
+main{
+    background-image: url(./images/but2.jpg);
+    
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    border: 2px  #d84aba;
+    background: none;
+    font-size: 1.5rem;
+    color: #0C359E;
+    font-family: "Madimi One", sans-serif;
+}
+a:link{
+    text-decoration: none;
+}
+span{
+    color: #FF3EA5;
+    font-family: "Dancing Script", cursive;
+    font-weight: 900;
+}
+body {
+    /* background-color: #AEFEFF; */
+  
+} 
+nav{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+    font-family: "Madimi One", sans-serif;
+    font-size: 8rem;
+    font-weight: 600;
+}
+
+ul{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 1rem;
+    margin-right: 10px;  
+    text-decoration: none;
+}     
+#Moviecategories{
+    display: block;
+    gap: 30px;
+    font-size: 2rem;
+    border: 8px groove palevioletred;
+    border-radius: 10px;
+    background-color:#FF3EA5 ;
+    align-content: center; 
+    padding: 30px;
+    margin: 0;
+    justify-content: center;
+    align-items: center; 
+    color: #343F56;
+    font-weight: 900; 
+}   
+button{
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 1rem;
+    margin-right: 8px;
+    text-decoration: none;
+    border: 8px groove palevioletred;
+    border-radius: 10px;
+    background-color: #FF3EA5;
+    font-weight: 600;
+
+}
+#first-para{
+    color: #893763;
+    text-align: center;
+    font-size: large;
+    font-family: "Josefin Sans", sans-serif;
+}
+h1{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 900;
+}
+
+h2{
+    font-family: "Pacifico", cursive;
+    text-align: center;
+    font-weight: 900;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px hotpink;
+
+}
+.Categories{
+    display: flex;
+    justify-content: center;
+   
+}
+.movie{
+    text-align: center;
+}
+#Top-5{
+    flex: 1;
+    padding: 10px;
+    border: 2px ridge #d84aba;
+    display: inline;
+    border-radius: 6px;
+    font-size: 2rem;
+    background-color: white;
+} 
+.Flex-Container {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+
+}
+.social-icons{
+    border: 2px #d84aba;
+    display: flex;
+    justify-content: center;
+} 
+li a:hover {
+    background-color: #f36fdd;
+    text-decoration: underline;
+  }
+
+
+
+ 
+
+
+/* for mobile phones */
+@media(min-width: 300px) and (max-width: 480px){
+
+    header {
+        background-color: aqua;
+    }
+
+}
+
+/* for tablets */
+@media screen and (max-width: 900px){
+
+    nav {
+        
+        width: 100%;
+    }
+
+}
+    
+
